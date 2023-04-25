@@ -1,15 +1,19 @@
 # randomtools
 This Pyside project was created to create a fair and randomized song selection.
 
-Change the items in the list variable in this code to use it.
-
-It can be used not only for singing, but also in situations that require fairness, such as picking a lunch, picking a speaker, or picking a facilitator.
-
 본 Pyside 프로젝트는 공정한 노래 선정을 위해서 마련되었습니다.
+
+Change the items in the list variable in this code to use it.
 
 list 변수의 항목을 변경하여 사용하세요.
 
+It can be used not only for singing, but also in situations that require fairness, such as picking a lunch, picking a speaker, or picking a facilitator.
+
 이 프로그램은 노래 선정을 위한 것만이 아닙니다. 점심 메뉴 결정이나 조별 과제의 발표자를 정하는 등 공정한 선정이 필요한 곳은 어디든 사용할 수 있습니다.
+
+Pyside6 and Python3 must be installed to run.
+
+프로그램 실행을 위해서는 Pyside6와 Python3가 설치되어 있어야 합니다.
 
 # Key features 주요 기능
 - Randomly select one
