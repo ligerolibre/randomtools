@@ -49,11 +49,15 @@ Guide to manipulating probabilities while evading anti-tampering systems.
 
 조작 방지 시스템을 회피하면서 어떻게 확률을 조작할 수 있는지 안내합니다.
 
-1. weights 변수에 가중치를 추가 합니다.
+1. weights 변수를 만들고 가중치를 추가 합니다.
+
+Create a 'weights' variable and add a weight item.
 <pre><code>self.weights = [0.1, 0.4, 0.4, 0.05, 0.05]
 </code></pre>
 
 2. 159번째 줄에 위치한 <code>text = random.choice(self.list)</code> 코드를 다음과 같이 변경합니다.
+
+Modify the code on line 159 to look like this:
 <pre><code>text = random.choices(self.items, self.weights)[0]
 </code></pre>
 
@@ -64,3 +68,27 @@ This code can be used for more than just probability manipulation.
 To further ensure fairness, you can set the weights to equalize to compensate for possible biases in the computing process.
 
 더욱 공정성을 보장하기 위하여 가중치를 동일하게 설정하여 컴퓨팅 과정에서 발생 가능한 편향성을 보정할 수 있습니다.
+
+# License 라이선스
+<pre>Copyright (c) 2023 Seoyoungwoo.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.</pre>
