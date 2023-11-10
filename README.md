@@ -33,7 +33,7 @@ Change the items in the list variable (line 34)
 
 list 변수의 항목을 변경하세요. (34번째 줄)
 <pre><code># 노래 리스트
-self.list = ["마침내 평화", "당신께 드려요", "결코 없어지지 않는 사랑", "하나로 연합된 우리", "이 기쁨 영원히"] # Change item
+self.list = ["오르트구름", "사건의 지평선", "바람", "약속", "오늘 헤어졌어요."] # Change item
 </code></pre>
 Change the title of the window (line 16)
 
