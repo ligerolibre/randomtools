@@ -31,7 +31,7 @@ class MyWidget(QtWidgets.QWidget):
         print("Program Start DateTime :",QtCore.QDateTime.currentDateTime().toString('yyyy년 MM월 dd일 hh:mm:ss'))
 
         # 노래 리스트
-        self.list = ["마침내 평화", "당신께 드려요", "결코 없어지지 않는 사랑", "하나로 연합된 우리", "이 기쁨 영원히"]
+        self.list = ["사건의 지평선", "오르트구름", "바람", "약속", "오늘 혜어졌어요."]
         
         print("뽑기 아이템 항목 :",str(self.list))
 
